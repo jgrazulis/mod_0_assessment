@@ -7,7 +7,9 @@ dinosaur = {
   "weight_in_pounds" => 33,
   "colors" => ['blue', 'orange', 'grayl'],
   "related_to" => ['turkeys', 'chickens', 'other flightless birds'],
-  "travel_method" => ['in packs', 4, 'family'],
-  "prey" => ['lots of other dinosaurs', 'fish', 'king crab'],
-  "carnivore" => true
+  "travel_method" => 'in packs'
+  "predators" => dinosaurs: ["t-rex", "other dinosaurs"],
+                 fish:      ["salmon", "catfish"],
+  "prey" => fish: ["swordfish", "goldfish"], 
+            others: ["king crab", "small dinosaurs"]
 }
