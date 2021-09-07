@@ -3,13 +3,11 @@ dinosaur = {
   "feathers" => true,
   "scales" => false,
   "name" => 'Buddy',
-  "height_in_feet" => 6,
-  "weight_in_pounds" => 33,
-  "colors" => ['blue', 'orange', 'grayl'],
+  "height" => 6, #ft
+  "weight" => 33, #lbs
+  "colors" => ['blue', 'orange', 'gray'],
   "related_to" => ['turkeys', 'chickens', 'other flightless birds'],
-  "travel_method" => 'in packs'
-  "predators" => dinosaurs: ["t-rex", "other dinosaurs"],
-                 fish:      ["salmon", "catfish"],
-  "prey" => fish: ["swordfish", "goldfish"], 
-            others: ["king crab", "small dinosaurs"]
+  "travel_method" => 'in packs', 
+  "predators" => ['t-rex', 'other dinosaurs', 'salmon', 'catfish'],
+  "prey" => ['swordfish', 'goldfish', 'king crab', 'small dinosaurs']
 }
