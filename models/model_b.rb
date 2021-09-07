@@ -8,5 +8,5 @@ developer = {
   "favorite_things_to_do" => ['hashes, git'],
   "schools_attended" => ['Aurora University', 'University of Denver', 'Joliet Junior College'],
   "excited_for" => ['meeting new people', 'Ruby', 'tips and tricks', 'how to google well'],
-  "nervous about" => ['getting stuck', 'finding time with partner', 'prioritizing wellbeing']
+  "nervous_about" => ['getting stuck', 'finding time with partner', 'prioritizing wellbeing']
 }
